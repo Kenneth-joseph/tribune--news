@@ -1,26 +1,27 @@
 from django.db import models
+import datetime as dt
 
 
 class Editor(models.Model):
     first_name = models.CharField(max_length=30)
     last_name = models.CharField(max_length=30)
     email = models.EmailField()
-    phone_number = models.CharField(max_length=10,blank=True)
+    phone_number = models.CharField(max_length=10, blank=True)
 
     def save_editor(self):
         self.save()
 
-    def __str__(self):
-        return self.first_name
-
     class Meta:
         ordering = ['first_name']
+
+    def __str__(self):
+        return self.first_name
 
 
 class Tags(models.Model):
     name = models.CharField(max_length=30)
 
-    def ___str__(self):
+    def __str__(self):
         return self.name
 
 
@@ -30,4 +31,23 @@ class Article(models.Model):
     editor = models.ForeignKey(Editor)
     tags = models.ManyToManyField(Tags)
     pub_date = models.DateTimeField(auto_now_add=True)
-# Create your models here.
+    article_image = models.ImageField(upload_to='articles/',default='kent')
+
+    @classmethod
+    def todays_news(cls):
+        # first gate today date using the method bellow and store it in the variable today
+        today = dt.date.today()
+        # query the database to filter the news article according the current day,
+        news = cls.objects.filter(pub_date__date=today)
+        return news
+
+    @classmethod
+    # the method defined below takes the date as an argument, and the filters the model data according to the date
+    def days_news(cls, date):
+        news = cls.objects.filter(pub_date__date=date)
+        return news
+
+    @classmethod
+    def search_by_title(cls, search_term):
+        news = cls.objects.filter(title__icontains=search_term)
+        return news
