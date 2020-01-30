@@ -31,7 +31,7 @@ class Article(models.Model):
     editor = models.ForeignKey(Editor)
     tags = models.ManyToManyField(Tags)
     pub_date = models.DateTimeField(auto_now_add=True)
-    article_image = models.ImageField(upload_to='articles/',default='kent')
+    article_image = models.ImageField(upload_to='articles/')
 
     @classmethod
     def todays_news(cls):
@@ -39,6 +39,7 @@ class Article(models.Model):
         today = dt.date.today()
         # query the database to filter the news article according the current day,
         news = cls.objects.filter(pub_date__date=today)
+        print(news, '>>>>')
         return news
 
     @classmethod
@@ -51,3 +52,6 @@ class Article(models.Model):
     def search_by_title(cls, search_term):
         news = cls.objects.filter(title__icontains=search_term)
         return news
+
+    def __str__(self):
+        return self.title

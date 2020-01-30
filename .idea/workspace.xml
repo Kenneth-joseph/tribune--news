@@ -2,19 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f69b6fd-d5ce-45cf-b0ba-c1e113915f58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/migrations/0005_auto_20200129_1044.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/migrations/0006_article_article_image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/templates/all-news/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/articles/Screenshot_from_2019-11-24_01-26-49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/articles/Screenshot_from_2019-11-24_01-27-00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/articles/Screenshot_from_2020-01-17_23-30-34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/articles/Screenshot_from_2020-01-26_23-54-39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/articles/s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/articles/s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/migrations/0007_auto_20200129_1706.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/templates/all-news/article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/templates/all-news/past-news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/templates/all-news/past-news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/templates/all-news/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/templates/all-news/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/templates/all-news/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/templates/all-news/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news/templates/all-news/today-news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/templates/all-news/today-news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/templates/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tribune/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tribune/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,17 +84,25 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="663" y="337" width="583" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580383617668">
+      <screen x="0" y="27" width="1920" height="1010" />
+    </state>
+    <state x="663" y="337" width="583" height="397" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1010@0.27.1920.1010" timestamp="1580383617668" />
     <state x="449" y="167" key="SettingsEditor" timestamp="1580047820200">
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
     <state x="449" y="167" key="SettingsEditor/0.27.1920.1010@0.27.1920.1010" timestamp="1580047820200" />
-    <state x="131" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1580299639607">
+    <state x="131" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1580383589913">
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
-    <state x="131" y="359" key="com.intellij.ide.util.TipDialog/0.27.1920.1010@0.27.1920.1010" timestamp="1580299639607" />
+    <state x="131" y="359" key="com.intellij.ide.util.TipDialog/0.27.1920.1010@0.27.1920.1010" timestamp="1580383589913" />
     <state x="249" y="224" width="432" height="622" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580125492187">
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
     <state x="249" y="224" width="432" height="622" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1010@0.27.1920.1010" timestamp="1580125492187" />
+    <state x="623" y="248" width="672" height="678" key="search.everywhere.popup" timestamp="1580372874547">
+      <screen x="0" y="27" width="1920" height="1010" />
+    </state>
+    <state x="623" y="248" width="672" height="678" key="search.everywhere.popup/0.27.1920.1010@0.27.1920.1010" timestamp="1580372874547" />
   </component>
 </project>
