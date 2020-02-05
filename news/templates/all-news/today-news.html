@@ -1,25 +1,49 @@
 {%extends 'all-news/base.html'%}
-
+{% load bootstrap3 %}
 {% block content %}
 {{block.super}}
-<div class="container">
+<div class="container-fluid">
     <!-- loop through news-->
     {%for news_item in news%}
     <div class="row">
         <!--display news articles-->
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-      <h2 class="text-center"> {{ news_item.title }} </h2>
+    <div class="jumbotron p-0">
+
+  <!-- Card image -->
+        <div class="view overlay rounded-top">
+         <img src="{{news_item.article_image.url}}" class="img-fluid img-responsive" alt="Sample image">
+         <a href="#">
+            <div class="mask rgba-white-slight"></div>
+            </a>
+         </div>
+
+     <!-- Card content -->
+        <div class="card-body text-center mb-3">
+
+        <!-- Title -->
+        <h3 class="card-title h3 my-4"><strong>{{ news_item.title }} </strong></h3>
+        <!-- Text -->
+        <p class="card-text py-2">{{news_item.post}}</p>
+        <!-- Button -->
+        <a href="#" class="btn purple-gradient btn-rounded mb-4">Button</a>
+
         </div>
-        <!--displaying images-->
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-            <img src="{{news_item.article_image.url}}" class="img-responsive" alt="Image">
-        </div>
-        <!--image end-->
+
     </div>
-    {% empty %}
+        </div>
+    </div>
+
+   {% empty %}
     <div class="row">
         <h2 class="text-center">There No News Items</h2>
     </div>
     {%endfor%}
+
+    <form action="{%url 'newsToday'%}" method="post">
+        {%csrf_token%}
+        {% bootstrap_form letterForm layout='inline' %}
+        <input type="submit" value="Subscribe">
+    </form>
 </div>
 {% endblock %}

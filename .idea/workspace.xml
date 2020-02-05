@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f69b6fd-d5ce-45cf-b0ba-c1e113915f58" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/media/articles/kentd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/migrations/0008_newsletterrecipients.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/templates/email/newsemail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/templates/email/newsemail.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/templates/registration/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/templates/registration/registration_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/templates/all-news/today-news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/templates/all-news/today-news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tribune/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tribune/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tribune/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tribune/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,10 +92,10 @@
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
     <state x="449" y="167" key="SettingsEditor/0.27.1920.1010@0.27.1920.1010" timestamp="1580047820200" />
-    <state x="131" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1580450325360">
+    <state x="131" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1580903321941">
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
-    <state x="131" y="359" key="com.intellij.ide.util.TipDialog/0.27.1920.1010@0.27.1920.1010" timestamp="1580450325360" />
+    <state x="131" y="359" key="com.intellij.ide.util.TipDialog/0.27.1920.1010@0.27.1920.1010" timestamp="1580903321941" />
     <state x="249" y="224" width="432" height="622" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580125492187">
       <screen x="0" y="27" width="1920" height="1010" />
     </state>

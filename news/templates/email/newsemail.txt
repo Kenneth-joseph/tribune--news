@@ -1,0 +1,3 @@
+Hello {{name}}
+
+Welcome to Moringa Tribune NewsLetter.You will find the most exciting news about Moringa Shool

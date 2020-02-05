@@ -25,6 +25,14 @@ class Tags(models.Model):
         return self.name
 
 
+class NewsLetterRecipients(models.Model):
+    name = models.CharField(max_length=30)
+    email = models.EmailField()
+
+    def __str__(self):
+        return self.name
+
+
 class Article(models.Model):
     title = models.CharField(max_length=60)
     post = models.TextField()
@@ -39,7 +47,6 @@ class Article(models.Model):
         today = dt.date.today()
         # query the database to filter the news article according the current day,
         news = cls.objects.filter(pub_date__date=today)
-        print(news, '>>>>')
         return news
 
     @classmethod
